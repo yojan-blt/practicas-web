@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <header class="cabezera">
+    </header>
+    <section class="contenido">
+        <div>
+            <h1>Título del formulario</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dicta incidunt, voluptatum officia totam, quis magni provident quia excepturi eos repellat ab illum quidem dolore aspernatur, asperiores ratione sunt laborum.</p>
+        </div>
+        <div>
+            <form action="#" method="post">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                <br>
+                <input type="tel" name="telefono" id="telefono" placeholder="Telefono (10 digitos)">
+                <br>
+                <input type="email" placeholder="e-mal">
+                <br>
+                <label for="">Elegir opción</label>
+                <input list="lista" name="MiLista">
+                    <datalist id="lista">
+                        <option value="Estudiante"></option>
+                        <option value="Egresado"></option>
+                        <option value="Empleado"></option>
+                        <option value="Visitante"></option>
+                    </datalist>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                <input type="button" value="Enviar">
+            </form>
+        </div>
+    </section>
+    <footer class="pie">
+    </footer>
+</body>
+</html>
